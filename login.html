@@ -90,69 +90,60 @@
 
               <!-- Modal -->
               <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-md">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title text-dark" id="exampleModalLabel">Registration</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body align-items-left">
                       
-                      <form class="row g-3">
-                        <div class="col-md-4">
+                      <form class="row g-3" action="registered.html">
+                        <div class="col-md-12">
+                         
                           <label for="validationDefault01" class="form-label text-dark">First name</label>
-                          <input type="text" class="form-control" id="validationDefault01" value="Itsas" required>
+                          <input type="text" class="form-control" id="validationDefault01" required>
                         </div>
-                        <div class="col-md-4">
-                          <label for="validationDefault02" class="form-label">Last name</label>
-                          <input type="text" class="form-control" id="validationDefault02" value="Cam" required>
+                        
+                        <div class="col-md-12">
+                          <label for="validationDefault02" class="form-label text-right">Last name</label>
+                          
+                          <input type="text" class="form-control" id="validationDefault02" required>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-12">
                           <label for="validationDefaultUsername" class="form-label">Username</label>
                           <div class="input-group">
                             <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" value="itsascam@nonesuch.com" required>
+                            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
                           </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-md-12">
                           <span id="passwordHelpInline" class="form-text">
                             Your username should match the username you use for online banking to facilitate funds transfer.
                           </span>
                         
-                        <div class="row g-3 align-items-center">
-                          <div class="col-auto">
+                        
+                        
+                        <div class="row g-3 align-items-left">
+                          <div class="col-md-12">
                             <label for="inputPassword6" class="col-form-label">Select a Password</label>
                           </div>
-                          <div class="col-auto">
-                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                          <div class="col-md-12">
+                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" required>
                           </div>
-                          <div class="col-auto">
+                          <div class="col-md-12">
                             <span id="passwordHelpInline" class="form-text">
                               Must be 8-20 characters long. Please be sure this matches your online banking password.
                             </span>
                           </div>
                         </div>
-
-                        <div class="row g-3 align-items-center">
-                          <div class="col-auto">
-                            <label for="inputPassword6" class="col-form-label">Re-enter Password</label>
-                          </div>
-                          <div class="col-auto">
-                            <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                          </div>
-                          <div class="col-auto">
-                            <span id="passwordHelpInline" class="form-text">
-                              Must be 8-20 characters long. Please be sure this matches your online banking password.
-                            </span>
-                          </div>
-                        </div>
-
-                        <div class="col-md-6">
+                        
+                        <div class="col-md-12">
                           <label for="validationDefault03" class="form-label">City</label>
                           <input type="text" class="form-control" id="validationDefault03" required>
                         </div>
                                                                          
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                           <label for="inputState" class="form-label">State</label>
                           <select id="inputState" class="form-select">
                         
@@ -213,7 +204,7 @@
                           </select>
                         </div>
                         
-                        <div class="col-md-3">
+                        <div class="col-md-12">
                           <label for="validationDefault05" class="form-label">Zip</label>
                           <input type="text" class="form-control" id="validationDefault05" required>
                         </div>
@@ -226,8 +217,13 @@
                           </div>
                         </div>
                         <div class="col-12">
-                          <button class="btn btn-primary" type="submit">Submit form</button>
+                          <button class="btn btn-primary" type="submit">Submit</button>
+                        
+                          
                         </div>
+
+
+                        
                       </form>
 
 
